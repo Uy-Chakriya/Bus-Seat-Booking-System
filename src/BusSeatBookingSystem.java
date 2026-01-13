@@ -16,7 +16,6 @@ public class BusSeatBookingSystem {
 
         String choice = "yes";
 
-        // ==>> this is for the
         while (choice.equalsIgnoreCase("yes")) {
             System.out.println("\n---------------------------------------------------------");
 
@@ -33,8 +32,6 @@ public class BusSeatBookingSystem {
                     System.out.println("---------------------------------------------------------");
                 }
             }
-
-            // available seat and unavailabel seat
 
             int available = 0;
             int unavailable = 0;
@@ -80,7 +77,6 @@ public class BusSeatBookingSystem {
                 System.out.println(RED + "Type yes or no only." + RESET);
             }
         }
-// this is just for the testing and explore
         System.out.println("\nThank you for your booking. Good luck!🙏😍");
         input.close();
     }
